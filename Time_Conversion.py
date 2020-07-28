@@ -1,11 +1,4 @@
-#!/bin/python3
 
-import os
-import sys
-
-#
-# Complete the timeConversion function below.
-#
 def timeConversion(s):
     split= s[:-2].split(':')
     hour, min, sec= int(split[0]), int(split[1]), int(split[2])
